@@ -1,0 +1,288 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	font-family: Arial;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #4A90E2;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+MadCap|expandingHead
+{
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #4A90E2;
+}
+
+MadCap|expandingBody
+{
+	color: #4A90E2;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #4A90E2;
+}
+
+.body-container
+{
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+/*== Other topics header bar styles ==*/
+
+.title-bar-container
+{
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	/*adds the shadow effect to the header*/
+}
+
+/*== madcap proxy assigned styles ==*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #4A90E2;
+}
+
+a
+{
+	color: #4a90e2;
+}
+
+a:link
+{
+	color: #4a90e2;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #4a90e2;
+}
+
+a:focus
+{
+	color: #4a90e2;
+}
+
+a:hover
+{
+	color: #4a90e2;
+}
+
+a:active
+{
+	color: #4a90e2;
+}
+
+span.SearchHighlight
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight1
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight2
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight3
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight4
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight5
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight6
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight7
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight8
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight9
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+span.SearchHighlight10
+{
+	background-color: #edf4fc;
+	text-decoration: none;
+}
+
+MadCap|dropDown
+{
+	mc-open-image: url('../Images/DropDownClosed.gif');
+	mc-closed-image: url('../Images/DropDownOpen.gif');
+	font-size: 14pt;
+}
+
+MadCap|dropDownHead
+{
+	font-weight: bold;
+}
+
+li
+{
+	font-size: 12pt;
+}
+
+MadCap|glossaryTerm
+{
+	color: #f5a623;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.body-container
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+#myBtn
+{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: #4A90E2;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a.dropDownClose,
+a.togglerClose
+{
+	display: block;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #4A90E2;
+}
+
+p.highlight
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	background-color: #edf4fc;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+}
+
